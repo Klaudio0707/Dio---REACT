@@ -1,0 +1,19 @@
+{
+    "extends": [ "eslint:recommended", "plugin:react/recommend","plugin:prettier/recommended",  "airbnb", "plugin:react/recommended"],
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "parserOptions":{
+    "ecmaFeatures": {
+"jsx": true
+    }
+},
+    "plugins": [
+     "react"   
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off"
+    }
+}
